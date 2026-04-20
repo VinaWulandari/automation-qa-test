@@ -14,6 +14,7 @@ TC-LOGIN-POS-01 Successful Login With Valid Credentials
     User Should Be Logged In
     # Tambahan: Logout setelah login berhasil dapat lanjut ke skenario berikutnya, jika skenario dijalankan per file
     Logout from aplication
+    User Should Be Logged Out
 
 TC-LOGIN-NEG-01 Login Failed With Wrong Password
     [Documentation]    Verify system shows error when wrong password is entered
