@@ -1,14 +1,14 @@
-Document Title:
+# Document Title:
   QA Automation Test Documentation — Login & Logout
-Project Name:
+# Project Name:
   Mobile App Test Automation Assignment
-Application:
+# Application:
   Sauce Labs Demo App (Android)
-Framework:
+# Framework:
   Robot Framework + AppiumLibrary
-Device:
+# Device:
   Android Physical Device
-OS:
+# OS:
   Android (Physical Device)
 
 
