@@ -82,7 +82,7 @@ User Should Be Logged In
 Login Should Show Error Message
     [Documentation]    Verifikasi pesan error muncul saat login gagal
     Wait Until Element Is Visible
-    ...    xpath=//android.widget.TextView[contains(@text,"Username and password do not match")]
+    ...    xpath=//android.widget.TextView[@text="Provided credentials do not match any user in this service."]
     ...    ${TIMEOUT}
 
 User Should Be Logged Out
